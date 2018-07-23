@@ -1,0 +1,100 @@
+.modal
+	background-image: url(../img/modal-bg.jpg)
+	background-position: center
+	background-repeat: no-repeat
+	background-size: cover
+	position: relative
+	overflow: hidden
+	width: 400px
+	height: auto
+	padding: 40px 50px
+	background-color: #fff
+	z-index: 1
+	border: 3px solid $accent
+	border-radius: 6px
+	text-align: center
+
+	h3
+		margin-bottom: 10px
+		font-size: 36px
+		text-align: center
+		color: $text
+		&::after
+			margin: 20px auto 40px auto
+
+	.sub-title
+		text-align: center
+		font-size: 14px
+		margin-bottom: 20px
+
+	.form-group
+		display: flex
+		flex-direction: column
+		justify-content: space-between
+		align-items: center
+
+		div
+			position: relative
+			width: 100%
+			margin-bottom: 15px
+			&:last-child
+				margin-bottom: 0
+
+			i
+				position: absolute
+				top: 22px
+				left: 25px
+				font-size: 10px
+				color: #999
+				z-index: 1
+
+		input
+			width: 100%
+			padding: 18px 20px 18px 50px
+			border: 1px solid #999
+			text-align: left
+			&:hover
+				border: 1px solid #999
+			&:focus
+				border: 1px solid #999
+
+	.btn
+		height: 50px
+		width: 100%
+		padding: 0
+		font-size: 14px
+		line-height: 50px
+
+	.close
+		position: absolute
+		right: 15px
+		top: 15px
+		display: block
+		background-color: transparent
+		border: none
+		outline: none
+		cursor: pointer
+		transition: all .3s
+		&:hover
+			img
+				transform: scale(1.2)
+
+#thanks
+	background-image: url(../img/thanks-bg.jpg)
+	background-position: center
+	background-repeat: no-repeat
+	background-size: cover
+
+	h3, p
+		color: #fff
+		text-align: center
+
+	h3
+		font-size: 36px
+		margin-bottom: 10px
+
+	p
+		margin-bottom: 0
+
+
+
